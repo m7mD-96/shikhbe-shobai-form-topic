@@ -1,0 +1,98 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(money.png);
+	background-size: cover;
+	background-color: rgba(0, 0, 0, .2);
+    background-blend-mode: soft-light;
+}
+
+form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 350px;
+	height: 420px;
+	background-color: rgba(0, 0, 0, .77);
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+	position: absolute;
+	top: -210px;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	margin-top: 90px;
+}
+
+input[type="text"], [type="password"]{
+	position: absolute;
+	outline: none;
+	border: none;
+	width: 250px;
+	height: 35px;
+	border-bottom: 2px solid #051367;
+	background: none;
+	padding: 5px;
+	color: white;
+}
+
+input[type="text"]{
+	top: 140px;
+	left: 50px;
+}
+
+input[type="password"]{
+	top: 210px;
+	left: 50px;
+}
+
+::placeholder{
+	color: white;
+}
+
+input[value="login"]{
+	position: absolute;
+	top: 305px;
+	left: 110px;
+	width: 130px;
+	height: 35px;
+	background-color: #051367;
+	border: none;
+	outline: none;
+	color: white;
+	border-radius: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: 1.3s;
+}
+
+input[value="login"]:hover{
+	background-color: white;
+	transition: ;
+	color: #051367;
+	transition: .2s;
+}
+
+p{
+	position: absolute;
+	top: 360px;
+	left: 50px;
+	color: white;
+	cursor: pointer;
+}
+
+p:hover{
+	color: #72c9ff;
+}
